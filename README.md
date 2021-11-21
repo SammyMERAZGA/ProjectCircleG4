@@ -13,6 +13,9 @@ Mon équipe était composée de 5 personnes issues de différentes promotions al
 
 ![Raspberry PI](https://img.shields.io/badge/-raspberrypi-05122A?style=flat&logo=raspberrypi)&nbsp;
 ![Python](https://img.shields.io/badge/-python-05122A?style=flat&logo=python)&nbsp;
+![JavaScript](https://img.shields.io/badge/-javascript-05122A?style=flat&logo=javascript)&nbsp;
+![PHP](https://img.shields.io/badge/-php-05122A?style=flat&logo=php)&nbsp;
+
 ![VueJS](https://img.shields.io/badge/-vue.js-05122A?style=flat&logo=vue.js)&nbsp;
 ![Boostrap](https://img.shields.io/badge/-bootstrap-05122A?style=flat&logo=bootstrap)&nbsp;
 
