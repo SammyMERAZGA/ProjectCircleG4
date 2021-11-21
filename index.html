@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <title>Exotismes</title>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js%22%3E"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css%27%3E"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../asset/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../asset/css/plugins/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../asset/css/plugins/simple-line-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../asset/css/plugins/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../asset/css/plugins/fullcalendar.min.css"
+    />
+    <link href="../asset/css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../asset/img/logomi.png" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+  </head>
+
+  <body id="mimin" class="dashboard">
+    <!-- start: Header -->
+    <nav class="navbar navbar-default header navbar-fixed-top">
+      <div class="col-md-12 nav-wrapper" style="background-color: #152d35">
+        <div
+          class="navbar-header"
+          style="width: 100%; background-color: #152d35"
+        >
+          <div
+            class="opener-left-menu is-open"
+            style="background-color: #152d35"
+          >
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+          </div>
+          <a href="../index.html" class="navbar-brand">
+            <b>Exotismes</b>
+          </a>
+          <ul class="nav navbar-nav search-nav">
+            <li>
+              <div class="search">
+                <div class="form-group form-animate-text">
+                  <input type="text" class="form-text" required />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content"></div>
+    <!-- end: Header -->
+    <div class="container-fluid mimin-wrapper">
+      <!-- start:Left Menu -->
+      <div id="left-menu">
+        <div class="sub-left-menu scroll">
+          <ul class="nav nav-list">
+            <br />
+            <li class="time">
+              <h1
+                class="animated fadeInLeft"
+                id="date"
+                style="font-size: 20px; margin-top: 20px"
+              ></h1>
+            </li>
+            <br />
+            <li class="active ripple">
+              <ul class="nav nav-list tree">
+                <li><a href="pages/statistique.html">Statistiques</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end: Left Menu -->
+    <!-- start: content -->
+
+    <style>
+      .col-lg-3 {
+        padding-left: 100px;
+        padding-top: 10px;
+      }
+
+      .rounded-circle {
+        border-radius: 50%;
+        border: solid 2px #2196f3;
+      }
+    </style>
+    <div id="content">
+        <hr class="featurette-divider">
+        
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h3 class="featurette-heading">L'objectif ?</h3>
+            <div class="trait"></div> <br>
+            <p class="lead">L’objectif était de mettre en place un assistant vocal capable d'interagir avec des
+              outils interne.
+              Il fallait lorsqu'une phrase est prononcée à l'oral, l'analyser afin de retranscrire le texte puis
+              mettre en place un algorithme qui devait déterminer la présence de mots-clés et pour chaque mots-clés
+              détectés proposer à l'utilisateur une action spécifique via une interface web.
+            </p>
+          </div>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h3 class="featurette-heading">Contraintes ?</h3>
+            <div class="trait"></div> <br>
+            <p class="lead"><strong>En ce qui concerne la partie contraintes on peut en citer 6 imposées par le client :</strong> <br>
+              <br>
+              • Utilisation de Raspberry Pi : Tout le système de reconnaissance de mot clé doit tourner sur Raspberry.<br>
+              • Microphone USB obligatoire prise Jack interdite.<br>
+              • Écoute de la voix et traduction en texte en temps réel.<br>
+              • Le système de reconnaissance de mot clé doit reconnaître la langue française.<br>
+              • Envoi des mots clés détectés sur un serveur web par le protocole WebSocket via un script.<br>
+              • Rédaction d'une documentation d'installation et d'utilisateur.<br>
+            
+            </p>
+          </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- end: content -->
+
+    <!-- start: Mobile -->
+    <div id="mimin-mobile" class="reverse">
+      <div class="mimin-mobile-menu-list">
+        <div class="col-md-12 sub-mimin-mobile-menu-list animated fadeInLeft">
+          <ul class="nav nav-list">
+            <li class="active ripple">
+              <ul class="nav nav-list tree">
+                <li><a href="pages/statistique.html">Statistiques</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <button
+      id="mimin-mobile-menu-opener"
+      class="animated rubberBand btn btn-circle btn-danger"
+    >
+      <span class="fa fa-bars"></span>
+    </button>
+    <!-- end: Mobile -->
+
+    <!-- start: Javascript -->
+    <script src="../asset/js/jquery.min.js"></script>
+    <script src="../asset/js/jquery.ui.min.js"></script>
+    <script src="../asset/js/bootstrap.min.js"></script>
+    <!-- plugins -->
+    <script src="../asset/js/plugins/moment.min.js"></script>
+    <script src="../asset/js/plugins/fullcalendar.min.js"></script>
+    <script src="../asset/js/plugins/jquery.nicescroll.js"></script>
+    <script src="../asset/js/plugins/jquery.vmap.min.js"></script>
+    <script src="../asset/js/plugins/maps/jquery.vmap.world.js"></script>
+    <script src="../asset/js/plugins/jquery.vmap.sampledata.js"></script>
+    <script src="../asset/js/plugins/chart.min.js"></script>
+    <script src="../../asset/js/main.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script type="text/javascript"></script>
+  </body>
+</html>
