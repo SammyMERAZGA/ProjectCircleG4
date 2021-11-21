@@ -24,3 +24,4 @@ Mon équipe était composée de 5 personnes issues de différentes promotions al
 
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Filezilla](https://img.shields.io/badge/-filezilla-05122A?style=flat&logo=filezilla)&nbsp;
+![Debian](https://img.shields.io/badge/-debian-05122A?style=flat&logo=debian)&nbsp;
