@@ -1,7 +1,7 @@
 # Cercle de Projet #
 ## Institut G4 ##
 
-C'est un projet fait à l'institut G4. Nous sommes dans un groupe avec les promotions de chaque année mélangé et nous devons développer une application d'intelligence artificielle pour l'entreprise "Exotismes" (Agence de voyage). Leur souhait était de pouvoir prononcer une phrase comprenant un mot-clé et lorsque ce mot était dit, une action se produisait sur le site afin de guider le client sur sa demande.
+C'est un projet fait à l'institut G4. Nous sommes dans un groupe avec les promotions de chaque année mélangé et nous devons développer une application de reconnaissance vocale pour l'entreprise "Exotismes" (Agence de voyage). Leur souhait était de pouvoir prononcer une phrase comprenant un mot-clé et lorsque ce mot était dit, une action se produisait sur le site afin de guider le client sur sa demande.
 
   ---
 
